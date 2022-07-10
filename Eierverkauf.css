@@ -1,0 +1,54 @@
+.Header{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  background-color: rgb(27, 216, 27);
+
+}
+
+
+
+.Überschrift{
+  text-align: left;
+  font-size: 48px;
+}
+
+.Links{
+  margin: 14px;
+  display: inline-block;
+  font-size: 22px;
+  transition: all 250ms;
+}
+
+
+.Links:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Eierschachtel-Bild{
+  width: 100%;
+  border-radius: 1000px;
+}
+
+body{
+  margin: 0px 0px;
+}
+
+.Eierschachtel{
+  background-color: rgb(27, 216, 27);
+}
+
+
+
+
+
+
+
+
+
+
